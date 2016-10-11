@@ -18,9 +18,7 @@ public class AnotherView implements CallBack.CallbackMethod {
 
     @Override
     public void methodToCallBack(String name, String lastName, int age) {
-
         System.out.println("From Another view... my name is " + name + " my last name is " + lastName + " and I'm " + age);
-
     }
 
 }
